@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 colormode(255)
 
-img = Image.open("D:\Output_images_code\jennifer_lawrence.jpg")
+img = Image.open("image_path.jpg")
 height,width = img.size
 print(height)
 print(width)
